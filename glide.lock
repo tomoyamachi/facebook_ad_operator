@@ -1,0 +1,14 @@
+hash: feeb6882403d407297443f69c1388a4e05c039c7018b8afd08e153150718c25b
+updated: 2016-07-25T17:24:12.919921993+09:00
+imports:
+- name: github.com/boj/redistore
+  version: fc113767cd6b051980f260d6dbe84b2740c46ab0
+- name: github.com/echo-contrib/sessions
+  version: ef00243ed2a466219aa1dbed74bb5eb31c005667
+- name: github.com/gocraft/dbr
+  version: 516ee9acfef4b1a281674c03cce642090e9cf852
+- name: github.com/labstack/echo
+  version: 579cb79a41a2e931699bad83111728d78aa11d48
+- name: github.com/spf13/viper
+  version: b53595fb56a492ecef90ee0457595a999eb6ec15
+devImports: []
