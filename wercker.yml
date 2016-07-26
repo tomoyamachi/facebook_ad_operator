@@ -13,7 +13,7 @@ build:
           glide install
           export PATH=$WERCKER_SOURCE_DIR/bin:$PATH
     - wercker/golint:
-        exclude: "vender"
+        exclude: "vender/*"
     # Build the project
     - script:
         name: go build
