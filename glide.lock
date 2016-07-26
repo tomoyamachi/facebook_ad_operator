@@ -1,5 +1,5 @@
-hash: 66072e0c7546322b3e3329515fb8fba1e8289faf70f9002b596df42345018cd1
-updated: 2016-07-26T16:55:01.380615192+09:00
+hash: 5f4aab6c8eb8939fdc8ea68bd79dd0db2e73a346bf86a3fad96516ddd823d4ba
+updated: 2016-07-26T17:02:26.082218278+09:00
 imports:
 - name: github.com/BurntSushi/toml
   version: 99064174e013895bbd9b025c31100bd1d9b590ca
@@ -32,10 +32,16 @@ imports:
   version: 1560c1005499d61b80f865c04d39ca7505bf7f0b
 - name: github.com/spf13/viper
   version: b53595fb56a492ecef90ee0457595a999eb6ec15
+- name: github.com/xordataexchange/crypt
+  version: 749e360c8f236773f28fc6d3ddfce4a470795227
+  subpackages:
+  - config
 - name: golang.org/x/sys
   version: a646d33e2ee3172a661fc09bca23bb4889a41bc8
   subpackages:
   - unix
+- name: golang.org/x/tools
+  version: ed69e84b1518b5857a9f4e01d1f9cefdcc45246e
 - name: gopkg.in/yaml.v2
   version: e4d366fc3c7938e2958e662b4258c7a89e1f0e3e
 devImports: []
