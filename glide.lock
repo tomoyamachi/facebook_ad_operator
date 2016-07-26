@@ -1,5 +1,5 @@
-hash: 029b4349d0d9aa3a431949c4acac7515cab3eb3697de3dc62ae51a726cbceb47
-updated: 2016-07-25T17:49:49.303173358+09:00
+hash: e4d834c8842525ec0d95306bed93b6fba3abd787646ebd67ce9e3796a665c1cf
+updated: 2016-07-26T16:36:41.38202385+09:00
 imports:
 - name: github.com/boj/redistore
   version: fc113767cd6b051980f260d6dbe84b2740c46ab0
@@ -11,6 +11,10 @@ imports:
   version: a8a77c9133d2d6fd8334f3260d06f60e8d80a5fb
 - name: github.com/gocraft/dbr
   version: 516ee9acfef4b1a281674c03cce642090e9cf852
+- name: github.com/golang/lint
+  version: c7bacac2b21ca01afa1dee0acf64df3ce047c28f
+  subpackages:
+  - golint
 - name: github.com/hashicorp/hcl
   version: d8c773c4cba11b11539e3d45f93daeaa5dcf1fa1
   subpackages:

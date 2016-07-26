@@ -12,8 +12,7 @@ build:
           go get -u github.com/Masterminds/glide
           glide install
           export PATH=$WERCKER_SOURCE_DIR/bin:$PATH
-    - wercker/golint:
-        exclude: "vender/*"
+          make lint
     # Build the project
     - script:
         name: go build

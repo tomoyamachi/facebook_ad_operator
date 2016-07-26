@@ -6,3 +6,4 @@ import:
   - package: github.com/echo-contrib/sessions
   - package: github.com/boj/redistore
   - package: github.com/fsnotify/fsnotify
+  - package: github.com/golang/lint/golint
