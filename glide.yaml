@@ -1,7 +1,7 @@
 package: facebook_ad_operator
 import:
   - package: github.com/spf13/viper
-  - package: github.com/xordataexchange/crypt/config
+  - package: github.com/xordataexchange/crypt
   - package: github.com/fsnotify/fsnotify
   - package: golang.org/x/tools
   - package: github.com/golang/lint/golint
