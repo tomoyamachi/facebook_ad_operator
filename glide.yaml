@@ -1,8 +1,4 @@
 package: facebook_ad_operator
 import:
-  - package: github.com/labstack/echo
-  - package: github.com/gocraft/dbr
-  - package: github.com/spf13/viper
-  - package: github.com/echo-contrib/sessions
   - package: github.com/fsnotify/fsnotify
   - package: github.com/golang/lint/golint
