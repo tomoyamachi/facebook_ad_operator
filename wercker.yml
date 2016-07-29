@@ -2,6 +2,7 @@ box: golang
 build:
   # http://devcenter.wercker.com/docs/steps/index.html
   steps:
+    - glide-install
     - setup-go-workspace
     # Gets the dependencies
     - script:
