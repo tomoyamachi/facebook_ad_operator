@@ -9,3 +9,5 @@ import:
   - package: golang.org/x/tools
   - package: golang.org/x/crypto
   - package: golang.org/x/net
+  - package: golang.org/x/text
+  - package: github.com/ugorji/go/codec
