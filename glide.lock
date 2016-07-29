@@ -1,8 +1,12 @@
-hash: a6868efcc2560e806109f09e131d6a6705672693bf87a408ba3a409de7896ed8
-updated: 2016-07-26T17:11:13.613164544+09:00
+hash: 20e3f162b3b9242ec0e2e60e1668cbaf4515c498111836340387eaac3c6ab498
+updated: 2016-07-29T16:04:58.691426729+09:00
 imports:
+- name: github.com/armon/consul-api
+  version: dcfedd50ed5334f96adee43fc88518a4f095e15c
 - name: github.com/BurntSushi/toml
   version: 99064174e013895bbd9b025c31100bd1d9b590ca
+- name: github.com/coreos/go-etcd
+  version: 003851be7bb0694fe3cc457a49529a19388ee7cf
 - name: github.com/fsnotify/fsnotify
   version: a8a77c9133d2d6fd8334f3260d06f60e8d80a5fb
 - name: github.com/golang/lint
@@ -34,12 +38,16 @@ imports:
   version: b53595fb56a492ecef90ee0457595a999eb6ec15
 - name: github.com/xordataexchange/crypt
   version: 749e360c8f236773f28fc6d3ddfce4a470795227
+- name: golang.org/x/crypto
+  version: bc89c496413265e715159bdc8478ee9a92fdc265
+- name: golang.org/x/net
+  version: 6a513affb38dc9788b449d59ffed099b8de18fa0
 - name: golang.org/x/sys
   version: a646d33e2ee3172a661fc09bca23bb4889a41bc8
   subpackages:
   - unix
 - name: golang.org/x/tools
-  version: ed69e84b1518b5857a9f4e01d1f9cefdcc45246e
+  version: 9e7459099f9afd6a15464d69d93c6eed49bb545d
 - name: gopkg.in/yaml.v2
   version: e4d366fc3c7938e2958e662b4258c7a89e1f0e3e
 devImports: []

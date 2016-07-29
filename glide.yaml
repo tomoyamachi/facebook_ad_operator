@@ -3,5 +3,9 @@ import:
   - package: github.com/spf13/viper
   - package: github.com/xordataexchange/crypt
   - package: github.com/fsnotify/fsnotify
-  - package: golang.org/x/tools
   - package: github.com/golang/lint/golint
+  - package: github.com/armon/consul-api
+  - package: github.com/coreos/go-etcd
+  - package: golang.org/x/tools
+  - package: golang.org/x/crypto
+  - package: golang.org/x/net
